@@ -15,9 +15,10 @@
         <section id="books">
             <h2>Список литературы</h2>
             <ul>
-                <li><a href="books/uchebnik1.pdf">Учебник 1 (PDF)</a></li>
-                <li><a href="books/statya1.pdf">Научная статья 1 (PDF)</a></li>
-                <li><a href="books/metodichka1.pdf">Методичка 1 (PDF)</a></li>
+                <li><a href="books/23.pdf">Учебник 1 (PDF)</a></li>
+                <li><a href="books/raschet-protsessa-nagreva-shihty.pdf">Научная статья 1 (PDF)</a></li>
+                <li><a href="books/ustanovki-podogreva-shihty-dlya-elektroplavki.pdf">Методичка 1 (PDF)</a></li>
+                <li><a href="books/MU_22.04.02_Progressivnye_tekhnologii_plavki_splavov_na_osnove_zheleza.Praktika.pdf">Методичка 2 (PDF)</a></li>
             </ul>
         </section>
     </main>
