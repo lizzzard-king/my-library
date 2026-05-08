@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Электронная библиотека кафедры</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Электронная библиотека кафедры [Название специальности]</h1>
+        <p>Учебники, статьи и методические пособия</p>
+    </header>
+
+    <main>
+        <section id="books">
+            <h2>Список литературы</h2>
+            <ul>
+                <li><a href="books/uchebnik1.pdf">Учебник 1 (PDF)</a></li>
+                <li><a href="books/statya1.pdf">Научная статья 1 (PDF)</a></li>
+                <li><a href="books/metodichka1.pdf">Методичка 1 (PDF)</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Кафедра [Название]. Все права защищены.</p>
+    </footer>
+</body>
+</html>
