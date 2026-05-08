@@ -38,27 +38,30 @@ a:hover {
 }
 #backToTop {
   display: none; /* Изначально скрыта */
-  position: fixed; /* Фиксированное положение на экране */
-  bottom: 30px; /* Отступ снизу 30 px */
-  right: 30px; /* Отступ справа 30 px */
-  width: 50px; /* Ширина 50 px */
-  height: 50px; /* Высота 50 px */
-  background-color: #4CAF50; /* Зелёный фон (как в вашем дизайне) */
-  color: white; /* Белый текст */
-  border: none; /* Убираем рамку */
-  border-radius: 50%; /* Делаем круглой */
-  cursor: pointer; /* Курсор-указатель при наведении */
-  font-size: 18px; /* Размер шрифта */
-  z-index: 1000; /* Поверх всех элементов */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Тень */
-  transition: background-color 0.3s ease; /* Плавное изменение цвета */
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 
 #backToTop:hover {
-  background-color: #45a049; /* Темнее при наведении */
+  background-color: #45a049;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 #backToTop.show {
   display: block; /* Показываем кнопку после прокрутки */
 }
+
 
