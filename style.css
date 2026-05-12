@@ -70,6 +70,22 @@ a:hover {
   padding: 20px;
   margin-top: 30px;
 }
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+.header-text {
+  flex: 1;
+}
+
 
 
 
