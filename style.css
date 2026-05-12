@@ -78,9 +78,12 @@ a:hover {
 }
 
 .logo {
-  width: 120px;
-  height: auto;
+  width: 250px; /* Новая ширина — увеличьте значение по своему усмотрению */
+  height: auto; /* Высота подстраивается автоматически, пропорции сохраняются */
+  display: block;
+  margin: 0 auto;
 }
+
 
 .header-text {
   flex: 1;
