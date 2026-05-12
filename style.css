@@ -63,5 +63,13 @@ a:hover {
 #backToTop.show {
   display: block; /* Показываем кнопку после прокрутки */
 }
+.site-footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
 
 
